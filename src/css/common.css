@@ -3,8 +3,8 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+    'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #fafafa;
@@ -15,4 +15,38 @@ body {
 img {
   display: block;
   max-width: 100%;
+}
+
+button {
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(144, 124, 255);
+  padding: 10px 40px;
+  font-size: 18px;
+}
+
+button:focus {
+  background-color: rgb(170, 85, 250);
+  box-shadow: 2px 2px 2px 1px rgba(106, 106, 109, 0.2);
+}
+
+input {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+span {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.timer {
+  display: flex;
+}
+
+.field {
+  padding-right: 10px;
 }
